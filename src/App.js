@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Count from "./Count";
 const messages = [
   "Learn React ⚛️",
   "Apply for jobs 💼",
@@ -13,6 +13,7 @@ export default function App() {
       <Steps />
       <Steps />
       <Steps />
+      <Count />
     </div>
   );
 
